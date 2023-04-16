@@ -1,0 +1,35 @@
+Inhertitance:
+
+If we assign subclass ref to a supercall type, it is valid
+  -> it will csll subclass method if a method exists in both sub & super
+  ->it will call super class method if it doesn't exist is subclass
+  ->if we call a method of subclass which doesn't exist in superclass, it gives compile time error
+  
+If we assign subclass ref to a supercall type, it is valid and type cast to super type, it is valid
+If we assign super class ref to subtype , it is compile time error
+If we assign super class ref to subtype by casting it to subtype, it is runtime Exception ClassCasteException
+If we assign super class ref to subtype by casting and using instanceOf(), then it is valid
+
+super()
+
+Compiler errors:-
+ Abstract and final class
+ instantiating Abstract class
+ 
+Wrapper Classes
+  Integer, Character,Double,Float,Short,Long,Boolean,
+  Autoboxing,Unboxing
+  Methods to use
+  
+Immutable classes:
+ String
+ make class final
+ no setters
+ final variables
+ return copy from getters
+ 
+ public HashMap<String,String> getmyMap(){
+  return HashMap<String,String> myMap.clone()
+  }
+  
+  
